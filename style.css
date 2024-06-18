@@ -1,6 +1,12 @@
 *{
     padding: 0;
     margin: 0;
+    user-select: none;
+}
+
+body{
+    background-color:#003249;
+    text-align: center;
 }
 
 .container{
@@ -8,14 +14,15 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 400px;
-    
+    margin: auto;
+    padding: 70px;
 }
 
 .keypad{
     display: flex;
     flex-wrap: wrap;
     gap:10px;
-    background-color: grey;
+    background-color: #ba9790;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -24,18 +31,21 @@
 
 .displayDiv{
     height: 100px;
-    background-color: blue;
+    background-color: #cef7a0;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 25px 25px 0 0;
+    
 }
 
 .display{
     height: 70%;
     width: 90%;
-    background-color: burlywood;
+    background-color: #d4f2db;
     border-radius: 22.5px 22.5px 0 0;
+    color: #69353f;
+    border: 1px solid #69353f;
 }
 .display h1{
     line-height: 70px;
@@ -46,8 +56,108 @@
 .key{
     height: 80px;
     width: 80px;
-    background-color: aquamarine;
-    border: 1.5px solid black;
+    background-color: #69353f;
+    color: #cef7a0;
+    border: 1.5px solid #cef7a0;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: "poppins";
+    font-weight: 800px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 20px;
+}
+
+.key:hover{
+    transform: scale(0.9);
+}
+
+.addKey:hover{
+    transform: scale(0.9);
+}
+
+.subKey:hover{
+    transform: scale(0.9);
+}
+
+.mulKey:hover{
+    transform: scale(0.9);
+}
+
+.divKey:hover{
+    transform: scale(0.9);
+}
+
+.eqlKey:hover{
+    transform: scale(0.9);
+}
+
+.mulKey{
+    height: 80px;
+    width: 80px;
+    background-color: #914d76;
+    color: #cef7a0;
+    border: 1.5px solid #cef7a0;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: "poppins";
+    font-weight: 800px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 20px;
+}
+
+.addKey{
+    height: 80px;
+    width: 80px;
+    background-color: #914d76;
+    color: #cef7a0;
+    border: 1.5px solid #cef7a0;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: "poppins";
+    font-weight: 800px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 20px;
+}
+
+.subKey{
+    height: 80px;
+    width: 80px;
+    background-color: #914d76;
+    color: #cef7a0;
+    border: 1.5px solid #cef7a0;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: "poppins";
+    font-weight: 800px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 20px;
+}
+
+.divKey{
+    height: 80px;
+    width: 80px;
+    background-color: #914d76;
+    color: #cef7a0;
+    border: 1.5px solid #cef7a0;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: "poppins";
+    font-weight: 800px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 20px;
+}
+
+.eqlKey{
+    height: 80px;
+    width: 80px;
+    background-color: #cef7a0;
+    color: #69353f;
+    border: 1.5px solid #69353f;
     box-sizing: border-box;
     font-size: 25px;
     font-family: "poppins";
